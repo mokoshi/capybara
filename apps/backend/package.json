@@ -5,6 +5,7 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.3",
     "hono": "^4.4.12"
   },
   "devDependencies": {
